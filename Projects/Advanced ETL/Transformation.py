@@ -35,7 +35,7 @@ class Transformation:
                 gdp_india[gdp_india_yrs[i]][key] = round(((gdp_india[gdp_india_yrs[i]]['GDP_in_rs_cr'] -gdp_india[gdp_india_yrs[i-1]]['GDP_in_rs_cr'])/gdp_india[gdp_india_yrs[i-1]]['GDP_in_rs_cr'])*100,2)
         
         # connection to mongo db
-        mongoDB_obj = MongoDB(urllib.parse.quote_plus('root'), urllib.parse.quote_plus('poln@recover'), '104.155.187.175', 'GDP')
+        mongoDB_obj = MongoDB(urllib.parse.quote_plus('root'), urllib.parse.quote_plus('password'), 'host', 'GDP')
         # Insert Data into MongoDB
         mongoDB_obj.insert_into_db(gdp_india, 'India_GDP')
         
@@ -59,9 +59,12 @@ class Transformation:
         # Convert list of dict into pandas df
         df = pd.DataFrame(air_list, columns=air_dict.keys())
         # connection to mongo db
-        mongoDB_obj = MongoDB(urllib.parse.quote_plus('root'), urllib.parse.quote_plus('poln@recover'), '104.155.187.175', 'Pollution_Data')
+        mongoDB_obj = MongoDB(urllib.parse.quote_plus('root'), urllib.parse.quote_plus('password'), 'host', 'Pollution_Data')
         # Insert Data into MongoDB
         mongoDB_obj.insert_into_db(df, 'Air_Quality_India')
+
+    def csvCryptoMarkets(self):
+            print('Please Code me !!!!')
 
     
 if __name__ == '__main__':
