@@ -1,4 +1,4 @@
-﻿slug,TGT,name,date,ranknow,open,high,low,close,volume,market,close_ratio,spread
+﻿slug,asset,name,date,ranknow,open,high,low,close,volume,market,close_ratio,spread
 target-coin,TGT,Target Coin,29-09-2017,607,0.028961,0.054766,0.028961,0.041777,69996,0,0.4966,0.03
 target-coin,TGT,Target Coin,30-09-2017,607,0.041783,0.046196,0.031435,0.031744,5725,0,0.0209,0.01
 target-coin,TGT,Target Coin,01-10-2017,607,0.031761,0.035957,0.02104,0.028385,5012,0,0.4924,0.01
