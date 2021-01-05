@@ -3,11 +3,11 @@
 This repository consist of jupyter notebooks for learning Python.
 
 Following topics have been covered so far:
-1. [Basic Python Concepts](#Basic Python Concepts:)
-1. [Intermediate & Advanced Python Concepts](#Intermediate & Advanced Python Concepts:)
-1. [Data Analysis Packages](#Data Analysis Packages:)
-1. [Project Work](#Project Work:)
-1. [Detailed Blogs related to Project Work](#Detailed Blogs related to Project Work:)
+1. [Basic Python Concepts](https://github.com/diljeet1994/Python_Tutorials/tree/master#basic-python-concepts-variables-fundamental-types-int-float-strings-booleans-list-tuples-dictionary-sets-conditional-statements-loops-functions)
+1. [Intermediate & Advanced Python Concepts](https://github.com/diljeet1994/Python_Tutorials/tree/master#intermediate--advanced-python-concepts-file-handling-shallow-deep-copy-lambda-map-filter-request-package-and-classes--objects-refer-to-following-links)
+1. [Data Analysis Packages](https://github.com/diljeet1994/Python_Tutorials/tree/master#data-analysis-packages)
+1. [Project Work](https://github.com/diljeet1994/Python_Tutorials/tree/master#project-work)
+1. [Detailed Blogs related to Project Work](https://github.com/diljeet1994/Python_Tutorials/tree/master#detailed-blogs-related-to-project-work)
 
 ## Basic Python Concepts: Variables, Fundamental types (Int, Float, Strings, Booleans), List, Tuples, Dictionary, Sets, Conditional statements, Loops, Functions.
 1. [Introduction - Python -Day1.ipynb](https://github.com/diljeet1994/Python_Tutorials/blob/master/Introduction%20-%20Python%20-Day1.ipynb)
